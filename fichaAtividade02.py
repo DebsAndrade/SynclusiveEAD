@@ -39,3 +39,15 @@ print(numero1+numero2)
 print(numero1-numero2)
 print(numero1*numero2)
 print(numero1/numero2)
+
+# Exercício 05
+
+numero = int(input("Digite o primeiro número: "))
+
+#quadrado = numero * numero
+quadrado = numero**2
+cubo = numero**3
+#cubo = quadrado * numero
+
+print("O quadrado de", numero, "é:", quadrado)
+print("O cubo de", numero, "é", cubo)
